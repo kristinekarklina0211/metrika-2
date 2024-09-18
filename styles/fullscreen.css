@@ -1,0 +1,30 @@
+.fullscreen {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0.52%,
+      rgba(0, 0, 0, 0.4) 82.81%
+    ),
+    url(../resources/fullscreen.png) lightgray -7.76px -329px / 100.888%
+      147.626% no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.fullscreen__inner {
+  position: relative;
+  padding: 0;
+
+  width: 100%;
+  height: 717px;
+}
+
+.fullscreen__text {
+  position: absolute;
+  bottom: 60px;
+
+  max-width: 443px;
+
+  color: #fff;
+  font-size: 30px;
+  line-height: 41px;
+}

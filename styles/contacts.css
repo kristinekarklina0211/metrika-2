@@ -1,0 +1,42 @@
+.contacts__inner {
+  padding: 186px 0 160px 0;
+  position: relative;
+}
+
+.contacts__title {
+  margin-bottom: 32px;
+}
+
+.contacts__title:before {
+  position: absolute;
+  top: 150px;
+  left: -4px;
+
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../resources/phone-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contacts__telephone {
+  margin-bottom: 30px;
+  display: block;
+
+  font-size: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #121212;
+}
+
+.contacts__mail {
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  opacity: 0.5;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
